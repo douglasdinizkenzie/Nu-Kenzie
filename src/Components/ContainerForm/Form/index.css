@@ -1,0 +1,54 @@
+.form-add-card {
+  height: auto;
+  border: 1px solid #e9ecef;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.form-add-card > input {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.form-add-card > p {
+  color: #868e96;
+  font-size: 13px;
+}
+
+.form-add-card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-add-card > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.value > input {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.type-value > select {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.form-add-card > button {
+  background-color: #fd377e;
+  border: none;
+  color: #ffffff;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+}

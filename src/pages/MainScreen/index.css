@@ -1,0 +1,46 @@
+.main-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  width: 40%;
+  padding: 8rem;
+}
+
+.container-text > h2 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.container-text > h2 > span {
+  color: #fd377e;
+}
+
+.container-text > h1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.container-text > p {
+  color: #ffffff;
+}
+
+.container-text > button {
+  width: 70%;
+  padding: 1rem;
+  background-color: #fd377e;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

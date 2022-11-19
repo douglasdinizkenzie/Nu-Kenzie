@@ -1,0 +1,24 @@
+.container-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-filters > div {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.container-filters > div > button {
+  padding: 0.8rem 1rem;
+  background: #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container-filters > div > button:focus {
+  background-color: #fd377e;
+  color: #ffffff;
+}

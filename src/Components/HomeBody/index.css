@@ -1,0 +1,13 @@
+.main-container-body {
+  width: 100%;
+  margin: 2.5rem auto;
+  justify-content: center;
+  display: flex;
+}
+
+.main-body {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
